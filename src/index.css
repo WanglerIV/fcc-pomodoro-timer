@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.darker{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+main{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: url('https://4kwallpapers.com/images/wallpapers/sad-girl-lofi-anime-girl-3840x2160-14872.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.aOne{
+  width: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.aTwo{
+  width: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.arrange{
+  height: 12rem;
+  width: 11rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter:  blur(4px);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.arrange h3{
+  margin: 0.5rem;
+  margin-top: 2rem;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.arrange p{
+  margin: 0.5rem 0.5rem 1rem 0.5rem;
+  font-size: 20px;
+}
+
+
+.align--settings{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrange-buttons{
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3.5px;
+  font-size: 15px;
+  color: aqua;
+  border: 1px solid rgb(109, 0, 0);
+
+}
+
+.buttons-align{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonOne{
+  margin-right: 0.5rem;
+  cursor: pointer;
+
+}
+.buttonTwo{
+  margin-left: 0.5rem;
+  cursor: pointer;
+
+
+}
+
+.buttonOne:hover{
+  background-color: rgb(120, 0, 0);
+  color: aqua;
+  font-size: 20px;
+  transition: ease-in 0.09s;
+  cursor: pointer;
+
+}
+.buttonTwo:hover{
+  background-color: rgb(120, 0, 0);
+  color: aqua;
+  font-size: 20px;
+  transition: ease-in 0.09s;
+  cursor: pointer;
+
+}
+
+.timer--area{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.timer--area h1{
+  font-size: 25px;
+  font-weight: 400;
+  margin: 2rem 0 1.5rem 0;
+  color: white;
+}
+
+
+.counter{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid aqua;
+  align-items: center;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter:  blur(3px);
+}
+
+#time-left{
+  font-size: 100px;
+  font-weight: 500;
+  color: white;
+}
+#timer-label{
+  color: white;
+}
+.counter--buttons{
+  display:  flex;
+}
+
+.counter--button{
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.cOne{
+  margin-right: 0.5rem;
+  background-color: #006de1;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+.cTwo{
+  margin-left: 0.5rem;
+  background-color: #cc0000;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+.cOne:hover{
+  background-color: #ffffff;
+  color: #006de1;
+  font-weight: 600;
+  transition: ease-in 0.09s;
+}
+
+.cTwo:hover{
+  font-weight: 600;
+  background-color: #ff0000;
+  color: #ffffff;
+  transition: ease-in 0.09s;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+  .counter{
+    width: 400px;
+    height: 400px;
+  }
+
+  .arrange{
+    margin: 0 auto;
+    height: 10rem;
+    width: 9rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .arrange h3{
+    margin: 0.5rem;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .arrange p{
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    font-size: 20px;
+  }
+  
+  .arrange-buttons{
+    width: 2.0rem;
+    height: 2.0rem;
+    border-radius: 3.5px;
+  }
+  
+  
+
+}
+
+@media screen and (max-width: 760px) {
+
+  #time-left{
+    font-size: 80px;
+    font-weight: 500;
+  }
+
+  .counter{
+    width: 350px;
+    height: 350px;
+  }
+
+  .arrange{
+    margin: 0 auto;
+    height: 9rem;
+    width: 7rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .arrange h3{
+    margin: 0.5rem;
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .arrange p{
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    font-size: 17px;
+  }
+  
+  .arrange-buttons{
+    width: 1.5rem;
+    height:1.5rem;
+    border-radius: 3.5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .counter{
+    width: 300px;
+    height: 300px;
+  }
+
+  #time-left{
+    font-size: 70px;
+    font-weight: 500;
+  }
+
+  .arrange{
+    margin: 0 auto;
+    height: 8rem;
+    width: 6rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .arrange h3{
+    margin: 0.5rem;
+    margin-top: 1rem;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  
+  .arrange p{
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    font-size: 14px;
+  }
+  
+  .arrange-buttons{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2.5px;
+  }
+
+    
+  #timer-label{
+    font-size: 12px;
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .counter{
+    width: 200px;
+    height: 200px;
+    border: 2px solid aqua;
+
+  }
+
+  #time-left{
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .timer--area h1{
+    font-size: 15px;
+  }
+  .timer--area{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arrange{
+    margin: 0 auto;
+    height: 6rem;
+    width: 6rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .arrange h3{
+    margin: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 9px;
+    font-weight: 400;
+  }
+  
+  .arrange p{
+    margin: 0.25rem 0.25rem 0.5rem 0.25rem;
+    font-size: 12px;
+  }
+  
+  .arrange-buttons{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2.5px;
+  }
+
+  .aOne{
+    width: 25%;
+  }
+  
+  .aTwo{
+    width: 25%;
+  }
+
+  .cOne{
+  font-size: 9px;
+  }
+  .cTwo{
+    font-size: 9px;
+  }
+  #timer-label{
+    font-size: 10px;
+  }
+
+  .counter--button{
+    height: 2rem;
+    width: 4rem;
+
+  }
+
+}
+
+
+@media screen and (max-width: 410px) {
+
+  .aOne{
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .aTwo{
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    border-radius: 50%;
+
+  }
+  
+  
+
+  #time-left{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .counter{
+    width: 175px;
+    height: 175px;
+    border: 1.5px solid aqua;
+  }
+
+  .timer--area h1{
+    font-size: 15px;
+  }
+  .timer--area{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .counter--button{
+    height: 1.5rem;
+    width: 3rem;
+  }
+
+  .arrange{
+    margin: 0 auto;
+    height: 6rem;
+    width: 5rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .arrange h3{
+    margin: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 8px;
+    font-weight: 400;
+  }
+  
+  .arrange p{
+    margin: 0.25rem 0.25rem 0.5rem 0.25rem;
+    font-size: 11px;
+  }
+  
+  .arrange-buttons{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2.5px;
+  }
+
+  .aOne{
+    width: 25%;
+  }
+  
+  .aTwo{
+    width: 25%;
+  }
+
+  .cOne{
+    font-size: 7px;
+    }
+    .cTwo{
+      font-size: 7px;
+    }
+  
+    #timer-label{
+      font-size: 10px;
+    }
+
+    .counter--button{
+      height: 1.5rem;
+      width: 3rem;
+  
+    }
+
+}
