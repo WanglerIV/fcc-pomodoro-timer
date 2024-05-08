@@ -1,6 +1,20 @@
 import React, { useState, useEffect } from 'react';
 
 function App() {
+
+  window.addEventListener("orientationchange", function() {
+    // Lock the screen to landscape mode
+    if (window.orientation == 90 || window.orientation == -90) {
+        // Lock screen rotation
+        screen.orientation.lock("landscape").catch(function(error) {
+            console.error("Failed to lock screen orientation:", error);
+        });
+    } else {
+        // Unlock screen rotation
+        screen.orientation.unlock();
+    }
+});
+
     const [sessionMinute, setSessionMinute] = useState(25);
     const [sessionSecond, setSessionSecond] = useState(0);
     const [breakMinute, setBreakMinute] = useState(5);
@@ -169,6 +183,7 @@ function App() {
                     </div>
                   </div>
               </div>
+
               <div className="darker"></div>
 
 
