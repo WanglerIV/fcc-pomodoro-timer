@@ -409,6 +409,10 @@ main{
 
 @media screen and (max-width: 410px) {
 
+  main{
+  background-position: right center;
+}
+
   .aOne{
     width: 20%;
     color: white;
