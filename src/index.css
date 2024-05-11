@@ -52,7 +52,6 @@ main{
   border-bottom: 2px solid rgb(13, 50, 59);
   border-right: 1px solid rgb(13, 50, 59);
   border-left: 1px solid rgb(13, 50, 59);
-
 }
 
 .arrange h3{
@@ -410,9 +409,8 @@ main{
 
 }
 
-@media screen and (max-width: 410px) {
 
-  
+@media screen and (max-width: 410px) {
 
   .aOne{
     width: 20%;
@@ -422,7 +420,6 @@ main{
     align-items: flex-end;
     justify-content: flex-end;
     height: 100%;
-    border-radius: 50%;
   }
   
   .aTwo{
@@ -432,21 +429,27 @@ main{
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    border-radius: 50%;
+  }
 
+  .arrange{
+    margin: 0 auto;
+    height: 7rem;
+    width: 6rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
   }
   
   
+  .counter{
+    width: 200px;
+    height: 200px;
+    border: 2px solid aqua;
+
+  }
 
   #time-left{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
-  }
-
-  .counter{
-    width: 175px;
-    height: 175px;
-    border: 1.5px solid aqua;
   }
 
   .timer--area h1{
@@ -457,6 +460,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
   }
 
   .counter--button{
@@ -464,24 +469,17 @@ main{
     width: 3rem;
   }
 
-  .arrange{
-    margin: 0 auto;
-    height: 6rem;
-    width: 5rem;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  
   .arrange h3{
     margin: 0.5rem;
     margin-top: 0.5rem;
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 400;
+    text-align: center;
   }
   
   .arrange p{
     margin: 0.25rem 0.25rem 0.5rem 0.25rem;
-    font-size: 11px;
+    font-size: 12px;
   }
   
   .arrange-buttons{
@@ -489,7 +487,7 @@ main{
     height: 1.5rem;
     border-radius: 2.5px;
   }
-
+  
   .aOne{
     width: 25%;
   }
