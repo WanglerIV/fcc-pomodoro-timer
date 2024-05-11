@@ -432,16 +432,17 @@ main{
     width: 250px;
     height: 250px;
     border: 2px solid aqua;
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
 
   #time-left{
-    font-size: 70px;
+    font-size: 55px;
     font-weight: 500;
   }
 
   .timer--area h1{
-    font-size: 20px;
+    font-size: 17px;
+    text-align: center;
   }
   .timer--area{
     width: 50%;
@@ -460,7 +461,7 @@ main{
     margin: 0 auto;
     height: 8rem;
     width: 6rem;
-    border: 1px solid aqua;
+    border: 1px solid rgb(13, 50, 59);
     margin-bottom: 7rem;
   }
   
@@ -496,14 +497,14 @@ main{
   }
 
   .cOne{
-    font-size: 8px;
+    font-size: 9px;
     }
     .cTwo{
-      font-size: 8px;
+      font-size: 9px;
     }
   
     #timer-label{
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .counter--button{
