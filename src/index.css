@@ -462,13 +462,14 @@ main{
     width: 6rem;
     border: 1px solid rgb(13, 50, 59);
     margin-bottom: 7rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
     border-radius: 3px;
-
-    
   }
-  
+  .arrange--session{
+    margin-left: 2rem;
+  }
+   .arrange--break{
+    margin-right: 2rem;
+  }
   .arrange h3{
     margin: 0.5rem;
     margin-top: 1rem;
