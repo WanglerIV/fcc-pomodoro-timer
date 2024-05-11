@@ -105,7 +105,6 @@ main{
 .buttonOne:hover{
   background-color: rgb(120, 0, 0);
   color: aqua;
-  font-size: 20px;
   transition: ease-in 0.09s;
   cursor: pointer;
 
@@ -113,7 +112,6 @@ main{
 .buttonTwo:hover{
   background-color: rgb(120, 0, 0);
   color: aqua;
-  font-size: 20px;
   transition: ease-in 0.09s;
   cursor: pointer;
 
@@ -135,7 +133,6 @@ main{
   margin: 2rem 0 1.5rem 0;
   color: white;
 }
-
 
 .counter{
   width: 500px;
@@ -431,29 +428,20 @@ main{
     height: 100%;
   }
 
-  .arrange{
-    margin: 0 auto;
-    height: 7rem;
-    width: 6rem;
-    border-radius: 5px;
-    margin-bottom: 6rem;
-  }
-  
-  
   .counter{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border: 2px solid aqua;
     margin-top: 6rem;
   }
 
   #time-left{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 500;
   }
 
   .timer--area h1{
-    font-size: 15px;
+    font-size: 20px;
   }
   .timer--area{
     width: 50%;
@@ -464,23 +452,35 @@ main{
   }
 
   .counter--button{
-    height: 1.5rem;
-    width: 3rem;
+    height: 2rem;
+    width: 4rem;
   }
 
+  .arrange{
+    margin: 0 auto;
+    height: 8rem;
+    width: 6rem;
+    border: 1px solid aqua;
+    margin-bottom: 7rem;
+  }
+  
   .arrange h3{
     margin: 0.5rem;
-    margin-top: 0.5rem;
-    font-size: 9px;
+    margin-top: 1rem;
+    font-size: 10px;
     font-weight: 400;
-    text-align: center;
   }
   
   .arrange p{
-    margin: 0.25rem 0.25rem 0.5rem 0.25rem;
-    font-size: 12px;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    font-size: 14px;
   }
   
+  .arrange-buttons{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2.5px;
+  }
   .arrange-buttons{
     width: 1.5rem;
     height: 1.5rem;
@@ -496,19 +496,19 @@ main{
   }
 
   .cOne{
-    font-size: 7px;
+    font-size: 8px;
     }
     .cTwo{
-      font-size: 7px;
+      font-size: 8px;
     }
   
     #timer-label{
-      font-size: 10px;
+      font-size: 12px;
     }
 
     .counter--button{
-      height: 1.5rem;
-      width: 3rem;
+      height: 2rem;
+      width: 4rem;
   
     }
 
